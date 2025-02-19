@@ -1,0 +1,143 @@
+import type { Location } from "./types"
+
+export const locations: Location[] = [
+  {
+    id: "1",
+    name: "Faculty of Engineering",
+    description: "Home to various engineering departments.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/engineering.svg",
+    coordinates: {
+      lat: 6.397511,
+      lng: 5.616675,
+    },
+    category: "academic",
+    faculty: "Engineering",
+  },
+  {
+    id: "2",
+    name: "Department of Civil Engineering",
+    description: "Part of the Faculty of Engineering, focuses on civil engineering studies.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/department.svg",
+    coordinates: {
+      lat: 6.397611,
+      lng: 5.616775,
+    },
+    category: "academic",
+    faculty: "Engineering",
+    department: "Civil Engineering",
+  },
+  {
+    id: "3",
+    name: "Fresher Clearance Office",
+    description: "Office for new students to complete their clearance process.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/clearance.svg",
+    coordinates: {
+      lat: 6.398511,
+      lng: 5.617675,
+    },
+    category: "fresher_clearance",
+  },
+  {
+    id: "4",
+    name: "Final Year Clearance Center",
+    description: "Center for final year students to complete their clearance process.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/clearance.svg",
+    coordinates: {
+      lat: 6.396511,
+      lng: 5.615675,
+    },
+    category: "final_year_clearance",
+  },
+  {
+    id: "5",
+    name: "Main Gate Security Checkpoint",
+    description: "Primary security checkpoint at the main entrance of the university.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/security.svg",
+    coordinates: {
+      lat: 6.395511,
+      lng: 5.614675,
+    },
+    category: "security_checkpoint",
+  },
+  {
+    id: "6",
+    name: "NYSC Mobilization Office",
+    description: "Office for NYSC-related inquiries and mobilization processes.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/nysc.svg",
+    coordinates: {
+      lat: 6.399511,
+      lng: 5.613675,
+    },
+    category: "nysc_clearance",
+  },
+  {
+    id: "7",
+    name: "Faculty of Social Sciences",
+    description: "Houses departments like Economics, Political Science, and Sociology.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/social-sciences.svg",
+    coordinates: {
+      lat: 6.396511,
+      lng: 5.617675,
+    },
+    category: "academic",
+    faculty: "Social Sciences",
+  },
+  {
+    id: "8",
+    name: "Department of Economics",
+    description: "Part of the Faculty of Social Sciences, focuses on economic studies.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/department.svg",
+    coordinates: {
+      lat: 6.396611,
+      lng: 5.617775,
+    },
+    category: "academic",
+    faculty: "Social Sciences",
+    department: "Economics",
+  },
+  {
+    id: "9",
+    name: "Main Library",
+    description: "The central library serving all students and faculty members.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/library.svg",
+    coordinates: {
+      lat: 6.398511,
+      lng: 5.615675,
+    },
+    category: "facility",
+  },
+  {
+    id: "10",
+    name: "Student Affairs Building",
+    description: "Central administrative building for student-related matters.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/admin.svg",
+    coordinates: {
+      lat: 6.395511,
+      lng: 5.614675,
+    },
+    category: "administrative",
+  },
+  {
+    id: "11",
+    name: "Main Auditorium",
+    description: "Large venue for university events and ceremonies.",
+    image: "/placeholder.svg?height=200&width=300",
+    icon: "/icons/auditorium.svg",
+    coordinates: {
+      lat: 6.399511,
+      lng: 5.613675,
+    },
+    category: "facility",
+  },
+]
+
